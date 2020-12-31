@@ -337,6 +337,7 @@ def pullDownAllGems(board):
 
 
 def getGemAt(board, x, y):
+    # what this does?
     if x < 0 or y < 0 or x >= BOARDWIDTH or y >= BOARDHEIGHT:
         return None
     else:
